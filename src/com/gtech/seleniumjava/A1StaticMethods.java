@@ -1,10 +1,15 @@
 package com.gtech.seleniumjava;
 
 public class A1StaticMethods {
+	public static void staticMethod() {
+		System.out.println("Static method is called in Main Method");
+	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
+		for (int i = 0; i < 5; i++) {
+			staticMethod();
+		}
 	}
 
 }
