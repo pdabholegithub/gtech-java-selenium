@@ -26,19 +26,19 @@ public class A2OperatorCalc {
 
 		return a / b;
 	}
+
 	// Non-static method for modulus
-		public int modulus(int a, int b) {
-			return a % b;
-		}
+	public int modulus(int a, int b) {
+		return a % b;
+	}
 
 	public static void main(String[] args) {
 		A2OperatorCalc opcalc = new A2OperatorCalc();
-		 System.out.println("Addition: " + opcalc.add(55,5));
-		 System.out.println("Substraction: " + opcalc.substract(55, 5));
-		 System.out.println("Multiplication: " + opcalc.multiply(55, 5));
-		 System.out.println("Division: " + opcalc.divide(55, 5));
-		 System.out.println("Modulus: " + opcalc.modulus(56, 5));
-		
+		System.out.println("Addition: " + opcalc.add(55, 5));
+		System.out.println("Substraction: " + opcalc.substract(55, 5));
+		System.out.println("Multiplication: " + opcalc.multiply(55, 5));
+		System.out.println("Division: " + opcalc.divide(55, 5));
+		System.out.println("Modulus: " + opcalc.modulus(56, 5));
 
 	}
 
