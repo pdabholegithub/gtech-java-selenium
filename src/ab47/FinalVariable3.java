@@ -2,6 +2,7 @@ package ab47;
 
 public class FinalVariable3 {
 	final int a = 500;
+	final static double a1 = 750;
 
 	public static void main(String[] args) {
 		// a = 550;
@@ -12,6 +13,7 @@ public class FinalVariable3 {
 		// double b = 600;
 		System.out.println(fv3.a);
 		System.out.println(b);
+		System.out.println(a1);
 	}
 
 }
